@@ -1,0 +1,38 @@
+{
+  "name": "gtm-vue",
+  "version": "0.1.0",
+  "description": "Wrapper for using Google Tag Manager with Vue. Inspired by vue-gtm.",
+  "main": "dist/index.js",
+  "typings": "src/typings/index.d.ts",
+  "author": "Dean Pienaar <dean@septaprime.co.za>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "analytics",
+    "google",
+    "google analytics",
+    "google tag manager",
+    "tracking",
+    "universal analytics",
+    "vue",
+    "vue analytics",
+    "vue google tag manager",
+    "vue gtm",
+    "vue js analytics",
+    "vue js google tag manager",
+    "vue js gtm",
+    "vue tag manager",
+    "vuejs",
+    "vuejs google tag manager",
+    "vuejs gtm"
+  ],
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6",
+    "vue": "^2.5.17"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  }
+}
