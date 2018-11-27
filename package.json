@@ -6,6 +6,13 @@
   "typings": "src/typings/index.d.ts",
   "author": "Dean Pienaar <dean@septaprime.co.za>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanpienaar/gtm-vue.git"
+  },
+   "bugs": {
+    "url": "https://github.com/deanpienaar/gtm-vue/issues"
+  },
   "private": false,
   "keywords": [
     "analytics",
