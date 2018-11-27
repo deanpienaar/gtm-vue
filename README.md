@@ -1,6 +1,8 @@
 # gtm-vue
 
-A easy way of using [Google Tag Manager](https://tagmanager.google.com/) with Vue.
+(Currently in Beta until testing is added. Use with care.)
+
+An easy way of using [Google Tag Manager](https://tagmanager.google.com/) with Vue.
 
 Heavily inspired by the package [vue-gtm](https://github.com/mib200/vue-gtm/) by 
 [mib200](https://github.com/mib200). This package merely adds some extra things like a useful 
