@@ -10,6 +10,7 @@
   },
   "rules": {
     "arrow-parens": [true, "ban-single-arg-parens"],
+    "curly": [true, "ignore-same-line"],
     "quotemark": [true, "single"],
     "indent": [true, "spaces", 2],
     "interface-name": false,
