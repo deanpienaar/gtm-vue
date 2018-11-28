@@ -33,7 +33,7 @@ export class AnalyticsPlugin {
         'action': action,
         'target-properties': label,
         'value': value,
-        'interaction-type': noninteraction,
+        'interaction-type': noninteraction || false,
         ...rest,
       });
     }
