@@ -9,7 +9,7 @@ import {setupViewTracking} from './view-tracking';
 class GTMVue {
   public static install (Vue: VueConstructor, options: GTMVueOptions) {
     const {id, disableDirective, directiveName, router, ignoredViews, debug, enabled} = options;
-    appendScript(id);
+    appendScript(id, debug);
 
     Vue.gtm = Vue.prototype.$gtm = new AnalyticsPlugin(enabled, debug);
 

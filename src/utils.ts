@@ -9,8 +9,8 @@ function scriptExists () {
   });
 }
 
-export function appendScript (id: string) {
-  if (scriptExists()) {
+export function appendScript (id: string, debug = false) {
+  if (scriptExists() || debug) {
     return;
   }
 
