@@ -13,7 +13,7 @@ tracking directive (`v-track`), and types. It will also feature testing soon.
 yarn add gtm-vue
 ```
 
-```vue
+```typescript
 import GTMVue from 'gtm-vue';
 
 // Passing in your instance of vue-router here will setup automatic view tracking
