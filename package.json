@@ -1,6 +1,6 @@
 {
   "name": "gtm-vue",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Wrapper for using Google Tag Manager with Vue. Inspired by vue-gtm.",
   "main": "dist/index.js",
   "typings": "src/typings/index.d.ts",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/deanpienaar/gtm-vue.git"
   },
-   "bugs": {
+  "bugs": {
     "url": "https://github.com/deanpienaar/gtm-vue/issues"
   },
   "private": false,
