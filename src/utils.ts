@@ -10,6 +10,13 @@ function scriptExists () {
 }
 
 export function appendScript (id: string, debug = false) {
+  try {
+    document;
+  } catch (e) {
+    // Not running in browser
+    return;
+  }
+
   if (scriptExists() || debug) {
     return;
   }

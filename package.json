@@ -1,6 +1,6 @@
 {
   "name": "gtm-vue",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Wrapper for using Google Tag Manager with Vue. Inspired by vue-gtm.",
   "main": "dist/index.js",
   "typings": "src/typings/index.d.ts",
