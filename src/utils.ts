@@ -17,7 +17,7 @@ export function appendScript (id: string, debug = false) {
     return;
   }
 
-  if (scriptExists() || debug) {
+  if (!id || scriptExists() || debug) {
     return;
   }
 
